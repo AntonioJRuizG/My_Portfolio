@@ -1,17 +1,34 @@
 import React from 'react';
 
-import './home.scss';
+// @ts-ignore
+import styles from './home.module.scss';
+import MediaButton from '../button/button.jsx';
+
+const LinksList = [
+  {
+    link: 'https://docs.google.com/document/d/1Ohh9XJlq1adzN3chfmWi1-zgHsK96L7Nvxcge2MShqI/edit?usp=sharing',
+    text: 'Download CV',
+  },
+  {
+    link: 'https://github.com/AntonioJRuizG',
+    text: 'GitHub',
+  },
+  {
+    link: 'https://www.linkedin.com/in/antoniojesusruizgarcia',
+    text: 'LinkedIn',
+  },
+];
 
 export default function Home() {
   return (
-    <section className="homeSection">
+    <section className={styles.homeSection}>
       <h1> Hello, I'm Antonio</h1>
       <p>Junior Frontend Developer</p>
 
       <div>
-        <a>Download CV</a>
-        <a>GitHub</a>
-        <a>LinkedIn</a>
+        {LinksList.map((item) => (
+          <MediaButton props={item}></MediaButton>
+        ))}
       </div>
     </section>
   );
