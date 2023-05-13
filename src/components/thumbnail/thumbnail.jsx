@@ -1,16 +1,39 @@
 import React from 'react';
 
-import './thumbnail.scss';
+// @ts-ignore
+import styles from './thumbnail.module.scss';
 
 export default function Thumbnail({ props }) {
   return (
-    <a href={props.link}>
+    <>
+      <h2 className={styles.thumbnailTitle}>{props.name}</h2>
+      <p className={styles.thumbnailDescription}>{props.description}</p>
       <img
-        className="thumbnailImage"
+        className={styles.thumbnailImage}
         width={300}
         src={`../../img/img-${props.imgName}.jpg`}
         alt={`Project ${props.name}`}
       ></img>
-    </a>
+      <p className={styles.thumbnailStack}>{props.stack}</p>
+
+      <a
+        className={styles.socialLink}
+        href={props.linkCode}
+        target="_blank"
+        rel="noopener"
+        aria-label="Github"
+      >
+        View code
+      </a>
+      <a
+        className={styles.socialLink}
+        href={props.linkWeb}
+        target="_blank"
+        rel="noopener"
+        aria-label="ProjectLink"
+      >
+        Open project
+      </a>
+    </>
   );
 }
