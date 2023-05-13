@@ -3,6 +3,7 @@ import About from '../components/about/about.jsx';
 import Gallery from '../components/gallery/gallery.jsx';
 import React from 'react';
 import Footer from '../components/footer/footer.jsx';
+import Contact from '../components/contact/contact.jsx';
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Home></Home>
       <About></About>
       <Gallery></Gallery>
+      <Contact></Contact>
       <Footer></Footer>
     </>
   );

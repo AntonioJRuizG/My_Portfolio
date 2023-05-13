@@ -7,4 +7,13 @@
   background-color: $main_theme_color;
   font-family: $font_default;
   font-size: 1rem;
+  min-width: max-content;
+}
+
+.link:hover {
+  box-shadow: 0 0 1rem $main_theme_color;
+}
+
+.link:active {
+  color: black;
 }

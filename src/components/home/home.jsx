@@ -4,7 +4,7 @@ import React from 'react';
 import styles from './home.module.scss';
 import MediaButton from '../button/button.jsx';
 
-const LinksList = [
+export const LinksList = [
   {
     link: 'https://docs.google.com/document/d/1Ohh9XJlq1adzN3chfmWi1-zgHsK96L7Nvxcge2MShqI/edit?usp=sharing',
     text: 'Download CV',
@@ -25,11 +25,13 @@ export default function Home() {
       <h1> Hello, I'm Antonio</h1>
       <p>Junior Frontend Developer</p>
 
-      <div>
+      <ul>
         {LinksList.map((item) => (
-          <MediaButton props={item}></MediaButton>
+          <li key={item.text}>
+            <MediaButton props={item}></MediaButton>
+          </li>
         ))}
-      </div>
+      </ul>
     </section>
   );
 }
