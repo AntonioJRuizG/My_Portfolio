@@ -1,0 +1,36 @@
+@import '../../style/variables.scss';
+.thumbnailTitle {
+  font-size: 2.25rem;
+
+  font-family: $font_default;
+}
+
+.thumbnailDescription {
+  font-family: $font_default;
+  font-size: 0.875rem;
+  text-align: justify;
+  margin: 1rem 0 1rem 0;
+}
+.thumbnailImage {
+  border: 0.5px solid lightgrey;
+  width: 100%;
+}
+
+.thumbnailStack {
+  color: $main_theme_color;
+  font-family: $font_default;
+  font-size: 0.875rem;
+  text-align: center;
+  margin: 1rem 0 1rem 0;
+}
+
+.socialLink {
+  font-family: $font_default;
+  margin: 1rem 0.5rem 1rem 0.5rem;
+  border-radius: 0.4rem;
+  color: white;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: $main_theme_color;
+  font-family: $font_default;
+  font-size: 0.875rem;
+}

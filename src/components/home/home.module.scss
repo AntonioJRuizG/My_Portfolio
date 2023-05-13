@@ -1,0 +1,31 @@
+@import '../../style/variables.scss';
+
+.homeSection {
+  margin: 0 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 90vh;
+
+  h1 {
+    font-size: 3rem;
+    width: 15rem;
+    text-align: left;
+    font-family: $font_default;
+  }
+
+  p {
+    margin: 1rem 0 1.5rem 0;
+    font-family: $font_default;
+    font-size: 1.125rem;
+  }
+
+  div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+}

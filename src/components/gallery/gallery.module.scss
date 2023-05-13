@@ -1,0 +1,32 @@
+@import '../../style/variables.scss';
+
+.gallerySection {
+  margin: 0 2rem 3rem 2rem;
+  min-height: 90vh;
+
+  .gallerySectionTitle {
+    font-size: 3rem;
+    text-align: center;
+    font-family: $font_default;
+    padding-bottom: 2rem;
+  }
+
+  .galleryItems {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+    .thumbnailContainer {
+      background-color: white;
+      border-radius: 0.5rem;
+      box-shadow: 0 0 1rem rgba($main_theme_color, 0.5);
+      padding: 1rem 1rem 1rem 1rem;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .galleryItems {
+      grid-template-columns: 1fr;
+    }
+  }
+}
