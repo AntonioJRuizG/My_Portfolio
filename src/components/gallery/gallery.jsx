@@ -20,7 +20,7 @@ const projectList = [
 
 export default function Gallery() {
   return (
-    <section className={styles.gallerySection}>
+    <section id="projects" className={`${styles.gallerySection} projects`}>
       <h2 className={styles.gallerySectionTitle}>Projects</h2>
       <ul className={styles.galleryItems}>
         {projectList.map((item) => (

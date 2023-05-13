@@ -21,7 +21,7 @@ export const LinksList = [
 
 export default function Home() {
   return (
-    <section className={styles.homeSection}>
+    <section id="home" className={`${styles.homeSection} home`}>
       <h1> Hello, I'm Antonio</h1>
       <p>Junior Frontend Developer</p>
 

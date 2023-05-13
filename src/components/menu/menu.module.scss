@@ -1,0 +1,43 @@
+@import '../../style/variables.scss';
+
+.mainMenu {
+  height: 2rem;
+  background-color: white;
+  box-shadow: 0px 2px 4px 2px rgba($main_theme_color, 0.5);
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+
+  .mainMenuList {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 0.2rem;
+    font-family: $font_default;
+    font-size: 0.875rem;
+
+    margin: 0 2rem 0 2rem;
+
+    .link {
+      cursor: pointer;
+      border-radius: 0.4rem;
+      padding: 0rem 0.5rem 0rem 0.5rem;
+      white-space: nowrap;
+      color: black;
+    }
+    .link:hover {
+      color: $main_theme_color;
+    }
+    .link:active {
+      color: white;
+      background-color: $main_theme_color;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .mainMenu {
+    justify-content: flex-start;
+  }
+}

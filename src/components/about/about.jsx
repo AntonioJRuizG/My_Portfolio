@@ -5,7 +5,7 @@ import styles from './about.module.scss';
 
 export default function About() {
   return (
-    <section className={styles.aboutSection}>
+    <section id="about" className={styles.aboutSection}>
       <h2>About</h2>
       <article className={styles.article}>
         <div className={styles.paragraphContainer}>

@@ -1,8 +1,9 @@
 @import '../../style/variables.scss';
 
 .aboutSection {
+  scroll-margin-top: 40px;
   margin: 0 2rem 3rem 2rem;
-  min-height: 90vh;
+  min-height: 100vh;
   h2 {
     font-size: 3rem;
     text-align: center;
@@ -35,8 +36,8 @@
       margin: auto;
       max-width: 20rem;
       border-radius: 50%;
-      border: 0.5rem solid $main_theme_color;
-      box-shadow: 0 0 0.5rem rgba($main_theme_color, 1);
+      border: 2px solid $main_theme_color;
+      box-shadow: 0 0 1rem rgba($main_theme_color, 1);
     }
   }
 

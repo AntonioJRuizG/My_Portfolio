@@ -1,8 +1,9 @@
 @import '../../style/variables.scss';
 
 .gallerySection {
+  scroll-margin-top: 40px;
   margin: 0 2rem 3rem 2rem;
-  min-height: 90vh;
+  min-height: 100vh;
 
   .gallerySectionTitle {
     font-size: 3rem;
