@@ -10,7 +10,7 @@ const projectList = [
     name: 'Be Euphonium',
     imgName: 'be-euphonium',
     description:
-      'Music enthusiasts network to share a gallery of their favourite instruments, filter the gallery and registered users can add new ones, edit or remove them.',
+      'Music enthusiasts network to share their favourite instruments. Apply filters to the gallery or click for details. Sign in to add your favourites, edit or remove them.',
     stack:
       'React | TypeScript | SASS | Redux | Node.js | Express | MongoDB | Jest | SonarQube',
     linkWeb: 'https://beeuphonium.netlify.app/',
