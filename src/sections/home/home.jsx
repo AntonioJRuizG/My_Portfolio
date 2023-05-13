@@ -2,7 +2,7 @@ import React from 'react';
 
 // @ts-ignore
 import styles from './home.module.scss';
-import MediaButton from '../button/button.jsx';
+import MediaButton from '../../components/button/button.jsx';
 
 export const LinksList = [
   {

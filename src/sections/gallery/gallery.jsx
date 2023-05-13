@@ -1,5 +1,5 @@
 import React from 'react';
-import Thumbnail from '../thumbnail/thumbnail.jsx';
+import Thumbnail from '../../components/thumbnail/thumbnail.jsx';
 
 // @ts-ignore
 import styles from './gallery.module.scss';

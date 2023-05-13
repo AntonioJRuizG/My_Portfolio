@@ -2,7 +2,7 @@ import React from 'react';
 
 // @ts-ignore
 import styles from './contact.module.scss';
-import MediaButton from '../button/button.jsx';
+import MediaButton from '../../components/button/button.jsx';
 import { LinksList } from '../home/home.jsx';
 
 export default function Contact() {
