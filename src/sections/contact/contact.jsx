@@ -17,8 +17,12 @@ export default function Contact() {
             className={styles.contactForm}
             name="contact"
             method="POST"
-            data-netlify="true"
+            // @ts-ignore
+            netlify
+            netlify-honeypot="bot-field"
+            hidden
           >
+            <input type="hidden" name="form-name" value="contact" />
             <input type="text" name="name" placeholder="Name"></input>
 
             <textarea name="comment" placeholder="Comment" required></textarea>
