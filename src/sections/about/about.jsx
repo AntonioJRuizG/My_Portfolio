@@ -37,8 +37,8 @@ export default function About() {
           <p>
             My favourite <span>stack</span> is HTML5, SASS, JavaScript (ES6),
             React, Redux and Jest. For my personal projects I use Trello, Figma,
-            SonarCloud, Postman and I try to implement different configurations
-            to be ready to work in any project environment.
+            SonarCloud, Postman and I try to implement different setups to be
+            ready to work in any project environment.
           </p>
         </div>
         <div>
