@@ -10,10 +10,6 @@ React app with responsive design created using Vite.
 
 ![Portfolio preview](https://i.ibb.co/ry2q13p/Portfolio-preview.gif 'Portfolio preview')
 
-## Technologies
-
-> **Figma | ESLint | Vite | React | JavaScript | SASS**
-
 ## Languages & tools
 
 - [Husky](https://www.npmjs.com/package/husky) git hook used to improve commits.
