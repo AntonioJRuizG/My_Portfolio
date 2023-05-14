@@ -16,8 +16,8 @@ export default function Contact() {
           <form
             className={styles.contactForm}
             name="contact"
-            // @ts-ignore
-            netlify
+            method="POST"
+            data-netlify="true"
           >
             <input type="text" name="name" placeholder="Name"></input>
 
