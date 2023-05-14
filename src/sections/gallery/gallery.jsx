@@ -1,5 +1,5 @@
 import React from 'react';
-import Thumbnail from '../thumbnail/thumbnail.jsx';
+import Thumbnail from '../../components/thumbnail/thumbnail.jsx';
 
 // @ts-ignore
 import styles from './gallery.module.scss';
@@ -20,7 +20,7 @@ const projectList = [
 
 export default function Gallery() {
   return (
-    <section className={styles.gallerySection}>
+    <section id="projects" className={`${styles.gallerySection} projects`}>
       <h2 className={styles.gallerySectionTitle}>Projects</h2>
       <ul className={styles.galleryItems}>
         {projectList.map((item) => (

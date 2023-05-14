@@ -2,9 +2,9 @@ import React from 'react';
 
 // @ts-ignore
 import styles from './home.module.scss';
-import MediaButton from '../button/button.jsx';
+import MediaButton from '../../components/button/button.jsx';
 
-const LinksList = [
+export const LinksList = [
   {
     link: 'https://docs.google.com/document/d/1Ohh9XJlq1adzN3chfmWi1-zgHsK96L7Nvxcge2MShqI/edit?usp=sharing',
     text: 'Download CV',
@@ -21,15 +21,17 @@ const LinksList = [
 
 export default function Home() {
   return (
-    <section className={styles.homeSection}>
+    <section id="home" className={`${styles.homeSection} home`}>
       <h1> Hello, I'm Antonio</h1>
       <p>Junior Frontend Developer</p>
 
-      <div>
+      <ul>
         {LinksList.map((item) => (
-          <MediaButton props={item}></MediaButton>
+          <li key={item.text}>
+            <MediaButton props={item}></MediaButton>
+          </li>
         ))}
-      </div>
+      </ul>
     </section>
   );
 }

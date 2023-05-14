@@ -34,3 +34,11 @@
   font-family: $font_default;
   font-size: 0.875rem;
 }
+
+.socialLink:hover {
+  box-shadow: 0 0 1rem $main_theme_color;
+}
+
+.socialLink:active {
+  color: black;
+}

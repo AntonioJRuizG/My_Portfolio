@@ -1,0 +1,79 @@
+@import '../../style/variables.scss';
+
+.contactSection {
+  scroll-margin-top: 40px;
+  margin: 0 2rem 3rem 2rem;
+  min-height: 100vh;
+
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: $font_default;
+    padding-bottom: 3rem;
+  }
+
+  .article {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    align-content: baseline;
+
+    .contactForm {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+      input,
+      textarea {
+        font-family: $font_default;
+        font-size: 0.875rem;
+        padding: 0.5rem;
+      }
+      input:focus,
+      textarea:focus {
+        outline: none !important;
+        border: 1px solid $main_theme_color;
+        box-shadow: 0 0 1rem $main_theme_color;
+        max-width: 400px;
+        max-height: 350px;
+      }
+      button {
+        font-family: $font_default;
+        font-size: 0.875rem;
+        border-radius: 0.4rem;
+        border: none;
+        color: white;
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        background-color: $main_theme_color;
+        width: fit-content;
+      }
+      button:hover {
+        box-shadow: 0 0 1rem $main_theme_color;
+      }
+
+      button:active {
+        color: black;
+      }
+    }
+
+    .socialMedia {
+      display: flex;
+      flex-direction: column;
+      ul {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        gap: 1rem;
+        margin-top: 1rem;
+        margin: auto;
+      }
+    }
+
+    p {
+      margin: 1rem 0 1.5rem 0;
+      font-family: $font_default;
+      font-size: 1.125rem;
+    }
+  }
+}

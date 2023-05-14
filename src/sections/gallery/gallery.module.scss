@@ -1,8 +1,9 @@
 @import '../../style/variables.scss';
 
 .gallerySection {
+  scroll-margin-top: 40px;
   margin: 0 2rem 3rem 2rem;
-  min-height: 90vh;
+  min-height: 100vh;
 
   .gallerySectionTitle {
     font-size: 3rem;
@@ -21,10 +22,11 @@
       border-radius: 0.5rem;
       box-shadow: 0 0 1rem rgba($main_theme_color, 0.5);
       padding: 1rem 1rem 1rem 1rem;
+      min-width: 300px;
     }
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 700px) {
     .galleryItems {
       grid-template-columns: 1fr;
     }
