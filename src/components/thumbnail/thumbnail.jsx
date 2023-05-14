@@ -10,8 +10,9 @@ export default function Thumbnail({ props }) {
       <p className={styles.thumbnailDescription}>{props.description}</p>
       <img
         className={styles.thumbnailImage}
-        width={300}
-        src={`../../img/img-${props.imgName}.jpg`}
+        width={940}
+        height={500}
+        src={`../../img/img-${props.imgName}.png`}
         alt={`Project ${props.name}`}
       ></img>
       <p className={styles.thumbnailStack}>{props.stack}</p>
@@ -25,15 +26,17 @@ export default function Thumbnail({ props }) {
       >
         View code
       </a>
-      <a
-        className={styles.socialLink}
-        href={props.linkWeb}
-        target="_blank"
-        rel="noopener"
-        aria-label="ProjectLink"
-      >
-        Open project
-      </a>
+      {props.linkWeb && (
+        <a
+          className={styles.socialLink}
+          href={props.linkWeb}
+          target="_blank"
+          rel="noopener"
+          aria-label="ProjectLink"
+        >
+          Open project
+        </a>
+      )}
     </>
   );
 }

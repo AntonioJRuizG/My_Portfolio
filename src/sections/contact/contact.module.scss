@@ -29,14 +29,15 @@
         font-family: $font_default;
         font-size: 0.875rem;
         padding: 0.5rem;
+        width: 300px;
+        max-width: 400px;
+        max-height: 350px;
       }
       input:focus,
       textarea:focus {
         outline: none !important;
         border: 1px solid $main_theme_color;
         box-shadow: 0 0 1rem $main_theme_color;
-        max-width: 400px;
-        max-height: 350px;
       }
       button {
         font-family: $font_default;
