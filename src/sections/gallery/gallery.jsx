@@ -16,6 +16,16 @@ const projectList = [
     linkWeb: 'https://beeuphonium.netlify.app/',
     linkCode: 'https://github.com/AntonioJRuizG/Be-Euphonium_front',
   },
+  {
+    id: '002',
+    name: 'My Portfolio',
+    imgName: 'my-portfolio',
+    description:
+      'Personal web where you can know more about me and my projects ✨. ',
+    stack: 'Vite | React | JavaScript | Sass modules | Linter',
+    linkWeb: '',
+    linkCode: 'https://github.com/AntonioJRuizG/My_Portfolio',
+  },
 ];
 
 export default function Gallery() {
