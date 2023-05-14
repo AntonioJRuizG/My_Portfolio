@@ -23,14 +23,11 @@ export default function NavigationMenu() {
       <nav className={styles.mainMenu}>
         <ul className={styles.mainMenuList}>
           {menuOptions.map((item) => (
-            <a
-              key={item.id}
-              href={item.path}
-              className={styles.link}
-              onClick={handleClick}
-            >
-              {item.label}
-            </a>
+            <li key={item.id}>
+              <a href={item.path} className={styles.link} onClick={handleClick}>
+                {item.label}
+              </a>
+            </li>
           ))}
         </ul>
       </nav>

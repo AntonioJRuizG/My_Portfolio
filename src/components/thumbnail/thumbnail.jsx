@@ -10,7 +10,8 @@ export default function Thumbnail({ props }) {
       <p className={styles.thumbnailDescription}>{props.description}</p>
       <img
         className={styles.thumbnailImage}
-        width={300}
+        width={940}
+        height={500}
         src={`../../img/img-${props.imgName}.png`}
         alt={`Project ${props.name}`}
       ></img>
