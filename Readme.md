@@ -15,7 +15,7 @@ React app with responsive design created using Vite.
 - [Husky](https://www.npmjs.com/package/husky) git hook used to improve commits.
 - [Eslint](https://eslint.org/docs/latest/use/getting-started#quick-start) as linting utility for JavaScript and JSX.
 - [Vite](https://vitejs.dev/guide/) as dev server.
-- JavasScript (ES6).
+- JavaScript (ES6).
 - [React](https://es.react.dev/) used for UI.
 - SASS (BEM, style modules).
 - [Lighhouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=es) used for improving the performance, quality, and correctness of the web app.
