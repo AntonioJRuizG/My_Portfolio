@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <section id="home" className={`${styles.homeSection} home`}>
       <h1> Hello, I'm Antonio</h1>
-      <p>Junior Frontend Developer</p>
+      <p>Junior Full Stack Web Developer</p>
 
       <ul>
         {LinksList.map((item) => (
