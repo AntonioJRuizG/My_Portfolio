@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 
 // @ts-ignore
 import styles from './menu.module.scss';
@@ -11,26 +11,46 @@ const menuOptions = [
 ];
 
 export default function NavigationMenu() {
+  const navRef = useRef(null);
+  const closeBtnRef = useRef(null);
+
   function handleClick(event) {
     event.preventDefault();
     const seccionDestino = document.querySelector(
       event.target.getAttribute('href')
     );
     seccionDestino.scrollIntoView({ behavior: 'smooth' });
+    handleMenu();
   }
+
+  const handleMenu = () => {
+    navRef.current.classList.toggle(styles.responsiveNav);
+    closeBtnRef.current.classList.toggle(styles.navOpenBtnAction);
+  };
+
   return (
-    <>
-      <nav className={styles.mainMenu}>
+    <header className={styles.header}>
+      <h1>AntonioJesusRuiz.app</h1>
+      <nav ref={navRef} className={styles.nav}>
         <ul className={styles.mainMenuList}>
           {menuOptions.map((item) => (
             <li key={item.id}>
-              <a href={item.path} className={styles.link} onClick={handleClick}>
+              <a
+                href={item.path}
+                className={styles.mainMenuItem}
+                onClick={handleClick}
+              >
                 {item.label}
               </a>
             </li>
           ))}
         </ul>
       </nav>
-    </>
+      <button ref={closeBtnRef} className={styles.navBtn} onClick={handleMenu}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
   );
 }
