@@ -6,7 +6,7 @@ import MediaButton from '../../components/button/button.jsx';
 
 export const LinksList = [
   {
-    link: 'https://docs.google.com/document/d/1Ohh9XJlq1adzN3chfmWi1-zgHsK96L7Nvxcge2MShqI/edit?usp=sharing',
+    link: 'https://docs.google.com/document/d/12Q2hK3DC6aiJI2w775cZ2pK9EC-rfG5qyll2gWdwb3o/edit?usp=sharing',
     text: 'Download CV',
   },
   {
@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <section id="home" className={`${styles.homeSection} home`}>
       <h1> Hello, I'm Antonio</h1>
-      <p>Junior Full Stack Web Developer</p>
+      <p>Full Stack Web Developer</p>
 
       <ul>
         {LinksList.map((item) => (
