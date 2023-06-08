@@ -26,6 +26,16 @@ const projectList = [
     linkWeb: '',
     linkCode: 'https://github.com/AntonioJRuizG/My_Portfolio',
   },
+  {
+    id: '003',
+    name: 'e-Commerce Admin Dashboard',
+    imgName: 'ecommerce-admin',
+    description:
+      'Admin Dashboard for an e-Commerce Store for electronic products. 🎧📱💻',
+    stack: 'Next.js | React | JavaScript | Tailwind',
+    linkWeb: 'https://ecommerce-admin-preview.vercel.app/products',
+    linkCode: 'https://github.com/AntonioJRuizG/ecommerce',
+  },
 ];
 
 export default function Gallery() {
