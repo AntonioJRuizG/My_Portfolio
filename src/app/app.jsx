@@ -11,9 +11,9 @@ export default function App() {
     <>
       <NavigationMenu></NavigationMenu>
       <Home></Home>
-      <About></About>
       <Gallery></Gallery>
       <Contact></Contact>
+      <About></About>
       <Footer></Footer>
     </>
   );
