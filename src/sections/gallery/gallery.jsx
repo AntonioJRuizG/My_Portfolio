@@ -31,10 +31,20 @@ const projectList = [
     name: 'e-Commerce Admin Dashboard',
     imgName: 'ecommerce-admin',
     description:
-      'Admin Dashboard for an e-Commerce Store for electronic products. 🎧📱💻',
+      'Admin Dashboard for an e-Commerce Store for electronic products.',
     stack: 'Next.js | React | JavaScript | Tailwind',
     linkWeb: 'https://ecommerce-admin-preview.vercel.app/products',
     linkCode: 'https://github.com/AntonioJRuizG/ecommerce',
+  },
+  {
+    id: '004',
+    name: 'e-Commerce Front',
+    imgName: 'ecommerce-front',
+    description:
+      'Web interface for users to interact with the electronics 🎧📱💻 e-Commerce platform .',
+    stack: 'Next.js | React | JavaScript | Sass Modules | Stripe | MongoDB',
+    linkWeb: 'https://ecommerce-front-blush.vercel.app/',
+    linkCode: 'https://github.com/AntonioJRuizG/ecommerce-front',
   },
 ];
 
