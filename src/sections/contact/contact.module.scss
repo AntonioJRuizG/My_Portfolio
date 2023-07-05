@@ -2,7 +2,7 @@
 
 .contactSection {
   scroll-margin-top: 40px;
-  margin: 0 2rem 3rem 2rem;
+  margin: 0 $secondary_margin 2rem $secondary_margin;
 
   h2 {
     font-size: 3rem;
@@ -17,6 +17,11 @@
     align-items: flex-start;
     justify-content: center;
 
+    div {
+      text-align: center;
+      margin: auto;
+    }
+
     .contactForm {
       display: flex;
       flex-direction: column;
@@ -27,8 +32,8 @@
         font-family: $font_default;
         font-size: 0.875rem;
         padding: 0.5rem;
-        width: 300px;
-        max-width: 400px;
+        width: 250px;
+        max-width: 250px;
         max-height: 350px;
       }
       input:focus,
@@ -56,19 +61,6 @@
       }
     }
 
-    .socialMedia {
-      display: flex;
-      flex-direction: column;
-      ul {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        gap: 1rem;
-        margin: auto;
-        margin-top: 0.3rem;
-      }
-    }
-
     p {
       margin: 1rem 0 1rem 0;
       font-family: $font_default;
@@ -79,6 +71,7 @@
 
 @media screen and (min-width: 600px) {
   .contactSection {
+    margin: 0 $main_margin 3rem $main_margin;
     .article {
       flex-direction: row;
       gap: 2rem;

@@ -2,7 +2,7 @@
 
 .aboutSection {
   scroll-margin-top: 40px;
-  margin: 0 2rem 3rem 2rem;
+  margin: 0 $secondary_margin 3rem $secondary_margin;
   h2 {
     font-size: 3rem;
     text-align: center;
@@ -11,9 +11,8 @@
   }
 
   .article {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
+    display: flex;
+    justify-content: center;
     align-items: center;
 
     .paragraphContainer {
@@ -45,5 +44,11 @@
     .article {
       grid-template-columns: 1fr;
     }
+  }
+}
+
+@media (min-width: 700px) {
+  .aboutSection {
+    margin: 0 $main_margin 3rem $main_margin;
   }
 }

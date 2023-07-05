@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 2rem;
+  padding: 0 $secondary_margin;
 
   h1 {
     font-family: $font_default;
@@ -60,7 +60,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 770px) {
   .nav {
     position: fixed;
     top: 0;
@@ -139,5 +139,11 @@
 
   .navBtn span:last-child {
     transform: 0;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .header {
+    padding: 0 $main_margin;
   }
 }

@@ -6,7 +6,7 @@ import styles from './footer.module.scss';
 export default function Footer() {
   return (
     <section>
-      <p className={styles.footerText}>Made with {'<'}3 by Antonio © 2023</p>
+      <p className={styles.footerText}>Antonio Ruiz</p>
     </section>
   );
 }

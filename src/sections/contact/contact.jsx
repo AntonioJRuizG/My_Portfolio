@@ -25,19 +25,6 @@ export default function Contact() {
             <button type="submit">Send</button>
           </form>
         </div>
-        <div className={styles.socialMedia}>
-          <p>Social media accounts:</p>
-          <ul>
-            {LinksList.map(
-              (item) =>
-                item.text !== 'Download CV' && (
-                  <li key={item.text}>
-                    <MediaButton props={item}></MediaButton>
-                  </li>
-                )
-            )}
-          </ul>
-        </div>
       </article>
     </section>
   );

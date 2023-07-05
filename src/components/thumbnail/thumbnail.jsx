@@ -24,7 +24,7 @@ export default function Thumbnail({ props }) {
         rel="noopener"
         aria-label="Github"
       >
-        View code
+        Code
       </a>
       {props.linkWeb && (
         <a
@@ -34,7 +34,7 @@ export default function Thumbnail({ props }) {
           rel="noopener"
           aria-label="ProjectLink"
         >
-          Open project
+          Preview
         </a>
       )}
     </>
