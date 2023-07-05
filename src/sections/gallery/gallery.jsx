@@ -48,7 +48,7 @@ const projectList = [
   },
   {
     id: '004',
-    name: 'e-Commerce Front',
+    name: 'e-Commerce',
     imgName: 'ecommerce-front',
     description:
       'Web interface for users to interact with the electronics 🎧📱💻 e-Commerce platform .',
