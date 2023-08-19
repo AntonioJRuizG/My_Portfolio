@@ -30,7 +30,6 @@ export default function NavigationMenu() {
 
   return (
     <header className={styles.header}>
-      <h1>AntonioJesusRuiz.app</h1>
       <nav ref={navRef} className={styles.nav}>
         <ul className={styles.mainMenuList}>
           {menuOptions.map((item) => (
