@@ -1,0 +1,19 @@
+@import '../../style/variables.scss';
+
+.techStackSection {
+  scroll-margin-top: 40px;
+  margin: 0 $secondary_margin 3rem $secondary_margin;
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: $font_default;
+    padding-bottom: 1rem;
+    color: $font_default_color;
+  }
+}
+
+@media (min-width: 700px) {
+  .techStackSection {
+    margin: 0 $main_margin 3rem $main_margin;
+  }
+}

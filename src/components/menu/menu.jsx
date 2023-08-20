@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 
 // @ts-ignore
 import styles from './menu.module.scss';
@@ -6,8 +6,9 @@ import styles from './menu.module.scss';
 const menuOptions = [
   { id: '1', label: 'Home', path: '#home' },
   { id: '2', label: 'About', path: '#about' },
-  { id: '3', label: 'Projects', path: '#projects' },
-  { id: '4', label: 'Contact', path: '#contact' },
+  { id: '3', label: 'Tech Stack', path: '#techstack' },
+  { id: '4', label: 'Projects', path: '#projects' },
+  { id: '5', label: 'Contact', path: '#contact' },
 ];
 
 export default function NavigationMenu() {
@@ -30,7 +31,6 @@ export default function NavigationMenu() {
 
   return (
     <header className={styles.header}>
-      <h1>AntonioJesusRuiz.app</h1>
       <nav ref={navRef} className={styles.nav}>
         <ul className={styles.mainMenuList}>
           {menuOptions.map((item) => (

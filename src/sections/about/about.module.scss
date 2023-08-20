@@ -8,12 +8,14 @@
     text-align: center;
     font-family: $font_default;
     padding-bottom: 1rem;
+    color: $font_default_color;
   }
 
   .article {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: $font_default_color;
 
     .paragraphContainer {
       display: flex;

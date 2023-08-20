@@ -1,4 +1,32 @@
 @import '../../style/variables.scss';
+
+.thumbnailContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  background-color: rgb(24, 24, 24);
+  border-radius: 0.1rgb (204, 204, 204);
+  box-shadow: 0 0 0.7rem rgba($main_theme_color, 0.5);
+  min-width: 300px;
+  color: $font_default_color;
+  transition: ease 0.4s;
+}
+
+.thumbnailContainer:hover {
+  box-shadow: 0 0 1rem rgba($main_theme_color_lighter, 0.5);
+  transition: ease 0.4s;
+}
+
+.thumbnailTextPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
 .thumbnailTitle {
   font-size: 2.25rem;
   font-family: $font_default;
@@ -8,36 +36,35 @@
   font-family: $font_default;
   font-size: 0.875rem;
   text-align: justify;
-  margin: 1rem 0 1rem 0;
-  height: 3rem;
 }
 .thumbnailImage {
-  border: 0.5px solid lightgrey;
   width: 100%;
   height: min-content;
 }
 
 .thumbnailStack {
-  color: $main_theme_color;
+  color: #c67bff;
+  font-weight: 800;
   font-family: $font_default;
-  font-size: 0.875rem;
+  font-size: 1rem;
   text-align: center;
-  margin: 1rem 0 1rem 0;
 }
 
 .socialLink {
   font-family: $font_default;
-  margin: 1rem 0.5rem 1rem 0.5rem;
+  margin: 0 0.5rem 0 0.5rem;
   border-radius: 0.4rem;
   color: white;
   padding: 0.5rem 1rem 0.5rem 1rem;
   background-color: $main_theme_color;
   font-family: $font_default;
   font-size: 0.875rem;
+  transition: ease 0.4s;
 }
 
 .socialLink:hover {
   box-shadow: 0 0 1rem $main_theme_color;
+  transition: ease 0.4s;
 }
 
 .socialLink:active {

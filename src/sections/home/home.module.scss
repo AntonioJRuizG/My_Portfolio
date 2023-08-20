@@ -10,9 +10,9 @@
 
   h1 {
     font-size: 3rem;
-    width: 15rem;
     text-align: left;
     font-family: $font_default;
+    color: $font_default_color;
   }
 
   p {
@@ -20,6 +20,7 @@
     font-family: $font_default;
     font-size: 1.125rem;
     white-space: nowrap;
+    color: $font_default_color;
   }
 
   ul {

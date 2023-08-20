@@ -8,10 +8,12 @@
   font-family: $font_default;
   font-size: 1rem;
   white-space: nowrap;
+  transition: ease 0.4s;
 }
 
 .link:hover {
   box-shadow: 0 0 1rem $main_theme_color;
+  transition: ease 0.4s;
 }
 
 .link:active {

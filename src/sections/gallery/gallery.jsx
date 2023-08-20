@@ -31,7 +31,7 @@ const projectList = [
     name: 'Movie search engine',
     imgName: 'search-engine',
     description:
-      "This application is a movie search engine that utilizes the collection of data avaible in IMBD's API. Enjoy its responsive and dark-mode design, automatic search input and sorting option.",
+      "Movie search engine that utilizes the collection of data avaible in IMBD's API. Enjoy its responsive and dark-mode design, automatic search input and sorting option.",
     stack: 'React.js | JavaScript | Scss modules | Fetch API',
     linkWeb: 'https://searchimbdmovies.netlify.app/',
     linkCode: 'https://github.com/AntonioJRuizG/movie-search-engine',
@@ -51,7 +51,7 @@ const projectList = [
     name: 'e-Commerce',
     imgName: 'ecommerce-front',
     description:
-      'Web interface for users to interact with the electronics 🎧📱💻 e-Commerce platform .',
+      'Web interface for users to interact with the electronics 🎧📱💻 e-Commerce platform.',
     stack: 'Next.js | React.js | JavaScript | Sass Modules | Stripe | MongoDB',
     linkWeb: 'https://ecommerce-front-blush.vercel.app/',
     linkCode: 'https://github.com/AntonioJRuizG/ecommerce-front',
@@ -64,9 +64,7 @@ export default function Gallery() {
       <h2 className={styles.gallerySectionTitle}>Projects</h2>
       <ul className={styles.galleryItems}>
         {projectList.map((item) => (
-          <li key={item.id} className={styles.thumbnailContainer}>
-            <Thumbnail props={item}></Thumbnail>
-          </li>
+          <Thumbnail key={item.id} props={item}></Thumbnail>
         ))}
       </ul>
     </section>
