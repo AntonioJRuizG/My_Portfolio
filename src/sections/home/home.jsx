@@ -7,15 +7,15 @@ import MediaButton from '../../components/button/button.jsx';
 export const LinksList = [
   {
     link: 'https://docs.google.com/document/d/12Q2hK3DC6aiJI2w775cZ2pK9EC-rfG5qyll2gWdwb3o/edit?usp=sharing',
-    text: 'Curriculum Vitae',
-  },
-  {
-    link: 'https://github.com/AntonioJRuizG',
-    text: 'GitHub',
+    text: 'CV',
   },
   {
     link: 'https://www.linkedin.com/in/antoniojesusruizgarcia',
     text: 'LinkedIn',
+  },
+  {
+    link: 'https://github.com/AntonioJRuizG',
+    text: 'GitHub',
   },
 ];
 
