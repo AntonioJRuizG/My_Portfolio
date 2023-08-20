@@ -1,6 +1,6 @@
 # My Portfolio
 
-Personal web app where you can know about me and my projects ✨.
+Personal web app made **from scratch** where you can know about me and my projects ✨.
 
 React app with responsive design created using Vite.
 
@@ -18,7 +18,7 @@ React app with responsive design created using Vite.
 - JavaScript (ES6).
 - [React](https://es.react.dev/) used for UI.
 - SASS (BEM, style modules).
-- [Lighhouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=es) used for improving the performance, quality, and correctness of the web app.
+- [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=es) used for improving the performance, quality, and correctness of the web app.
 
 ### Design
 
