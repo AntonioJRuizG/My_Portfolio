@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 
 // @ts-ignore
 import styles from './menu.module.scss';
@@ -31,7 +31,6 @@ export default function NavigationMenu() {
 
   return (
     <header className={styles.header}>
-      <h1>AntonioJesusRuiz.app</h1>
       <nav ref={navRef} className={styles.nav}>
         <ul className={styles.mainMenuList}>
           {menuOptions.map((item) => (

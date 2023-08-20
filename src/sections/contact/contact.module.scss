@@ -8,6 +8,7 @@
     font-size: 3rem;
     text-align: center;
     font-family: $font_default;
+    color: $font_default_color;
   }
 
   .article {
@@ -41,6 +42,7 @@
         outline: none !important;
         border: 1px solid $main_theme_color;
         box-shadow: 0 0 1rem $main_theme_color;
+        transition: ease 0.4s;
       }
       button {
         font-family: $font_default;
@@ -54,6 +56,7 @@
       }
       button:hover {
         box-shadow: 0 0 1rem $main_theme_color;
+        transition: ease 0.4s;
       }
 
       button:active {

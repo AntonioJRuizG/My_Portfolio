@@ -8,7 +8,7 @@ import { LinksList } from '../home/home.jsx';
 export default function Contact() {
   return (
     <section id="contact" className={styles.contactSection}>
-      <h2>Let's get in touch!</h2>
+      <h2>Contact</h2>
 
       <article className={styles.article}>
         <div>

@@ -10,20 +10,13 @@
     text-align: center;
     font-family: $font_default;
     padding-bottom: 2rem;
+    color: $font_default_color;
   }
 
   .galleryItems {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-
-    .thumbnailContainer {
-      background-color: white;
-      border-radius: 0.5rem;
-      box-shadow: 0 0 1rem rgba($main_theme_color, 0.5);
-      padding: 1rem 1rem 2rem 1rem;
-      min-width: 300px;
-    }
   }
 
   @media (max-width: 900px) {
