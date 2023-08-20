@@ -21,8 +21,8 @@ export default function About() {
             testing (Jest, React Testing Library).
           </p>
           <p>
-            Utilization of API platforms like Postman to assist in the design of
-            RESTful APIs, including user authentication (JWT).
+            Utilization of API platforms such as Postman to assist in the design
+            of RESTful APIs, including user authentication (JWT).
           </p>
           <p>
             I bring a strong sense of empathy, a collaborative work mind,

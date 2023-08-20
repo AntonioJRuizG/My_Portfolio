@@ -1,14 +1,12 @@
 # My Portfolio
 
-Personal web app where you can know about me and my projects ✨.
+Personal web app made **from scratch** where you can know about me.
 
 React app with responsive design created using Vite.
 
-## Preview
+## Deployment
 
-[Open website deployment](https://antoniojesusruiz.netlify.app/ 'My portfolio web')
-
-![Portfolio preview](https://i.ibb.co/ry2q13p/Portfolio-preview.gif 'Portfolio preview')
+[Preview](https://antoniojesusruiz.netlify.app/ 'My portfolio web')
 
 ## Languages & tools
 
@@ -18,7 +16,7 @@ React app with responsive design created using Vite.
 - JavaScript (ES6).
 - [React](https://es.react.dev/) used for UI.
 - SASS (BEM, style modules).
-- [Lighhouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=es) used for improving the performance, quality, and correctness of the web app.
+- [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=es) used for improving the performance, quality, and correctness of the web app.
 
 ### Design
 
